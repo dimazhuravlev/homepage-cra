@@ -1,0 +1,13 @@
+.blackHover {
+  color: var(--dark);
+  padding-bottom: 2px;
+}
+
+.blackHover:hover {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+.whiteHover {
+  color: inherit;
+}

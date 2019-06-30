@@ -1,0 +1,20 @@
+.imgColumn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+  padding-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .imgColumn {
+    padding-left: 0;
+  }
+}
+
+.element {
+  height: 100%;
+}
+
+.text {
+  font: var(--text16-20);
+}

@@ -1,0 +1,12 @@
+.textColumn {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .textColumn {
+    position: static;
+    padding-right: 0;
+  }
+}

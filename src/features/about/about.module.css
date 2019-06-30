@@ -1,0 +1,17 @@
+.text {
+  font: var(--text16-20);
+  color: var(--dark);
+  padding-right: 16px;
+}
+
+.about {
+  grid-column: 1 / 2;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+@media (max-width: 500px) {
+  .about {
+    grid-column: 1 / 3;
+  }
+}

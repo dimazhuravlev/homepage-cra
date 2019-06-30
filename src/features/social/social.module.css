@@ -1,0 +1,15 @@
+.social {
+  display: inline-block;
+  font: var(--text16-20);
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .social {
+    display: block;
+  }
+}
+
+.link {
+  margin-right: 8px;
+}
