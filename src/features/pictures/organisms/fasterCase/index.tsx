@@ -10,12 +10,7 @@ const FasterCase = () => (
       <PreloadableImage high src="/img/faster/high.jpg" />
     </Element>
     <PreloadableImage wide src="/img/faster/search_full.jpg" />
-    <p className={styles.text}>
-      Faster — аптечный маркетплейс, объединяющий все аптеки города в&nbsp;одном
-      месте. Я&nbsp;занимался проектированием, верстал адаптивные прототипы,
-      отвечал за весь дизайн, вёл проект от начальных иследований
-      и&nbsp;проверки гипотез до подготовки к&nbsp;запуску.
-    </p>
+    <p />
     <PreloadableImage high src="/img/faster/popular_drugs.jpg" />
     <p />
     <PreloadableImage src="/img/faster/bag_icon.jpg" />
@@ -33,7 +28,13 @@ const FasterCase = () => (
     <PreloadableImage high src="/img/faster/card.jpg" />
     <p />
     <p />
-    <p />
+    {/* <p /> */}
+    <p className={styles.text}>
+      Faster — аптечный маркетплейс, объединяющий все аптеки города в&nbsp;одном
+      месте. Я&nbsp;занимался проектированием, верстал адаптивные прототипы,
+      отвечал за весь дизайн, вёл проект от начальных иследований
+      и&nbsp;проверки гипотез до подготовки к&nbsp;запуску.
+    </p>
     <PreloadableImage src="/img/faster/not_found.jpg" />
     <PreloadableVideo wide src="/img/faster/map_order.mp4" />
   </section>

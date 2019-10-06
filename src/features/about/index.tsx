@@ -8,10 +8,10 @@ const About = () => (
     <h2 className={styles.text}>
       Дима Журавлёв, дизайнер. Проектирую сайты, интерфейсы и&nbsp;приложения.
       Работаю в&nbsp;
-      <ExternalLink blackHover href="https://breadhead.ru/">
-        Breadhead
+      <ExternalLink blackHover href="https://samokat.ru/">
+        Самокате
       </ExternalLink>
-      . Иногда называю себя разработчиком — верстаю, немного знаю JavaScript /
+      . Иногда называю себя разработчиком: верстаю, немного знаю JavaScript /
       TypeScript / React.
     </h2>
     <Social />

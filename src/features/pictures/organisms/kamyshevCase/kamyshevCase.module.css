@@ -17,4 +17,6 @@
 
 .text {
   font: var(--text16-20);
+  position: sticky;
+  top: 8px;
 }

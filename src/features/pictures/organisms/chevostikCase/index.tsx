@@ -14,7 +14,10 @@ const ChevostikCase = () => (
     <p />
 
     <PreloadableVideo src="/img/chevostik/button.mov" />
-    <PreloadableImage high src="/img/chevostik/right_icons.jpg" />
+    <PreloadableVideo src="/img/chevostik/games.mp4" />
+    <PreloadableVideo wide src="/img/chevostik/map.mp4" />
+    <PreloadableVideo src="/img/chevostik/lessons.mp4" />
+    <p />
     <p className={styles.text}>
       Чевостик — это интерактивная энциклопедия, где дети слушают аудиоуроки,
       проходят тесты и&nbsp;игры. Я проектировал и&nbsp;рисовал интерфейс
@@ -24,11 +27,9 @@ const ChevostikCase = () => (
         Перейти на&nbsp;сайт
       </ExternalLink>
     </p>
-    <PreloadableVideo wide src="/img/chevostik/map.mp4" />
-    <PreloadableVideo src="/img/chevostik/games.mp4" />
-    <p />
-    <p />
-    <PreloadableVideo src="/img/chevostik/lessons.mp4" />
+    <PreloadableImage high src="/img/chevostik/right_icons.jpg" />
+    {/* <p />
+    <p /> */}
     <PreloadableImage wide src="/img/chevostik/prizes.jpg" />
   </section>
 );

@@ -7,14 +7,12 @@
   height: 28px;
   border-bottom: 1px solid var(--dark);
   padding: 0px 8px 0px 8px;
-  padding-bottom: 2px;
   font: var(--text16-20);
 }
 
 @media (max-width: 768px) {
   .row {
     height: 22px;
-    padding-bottom: 2px;
   }
 }
 

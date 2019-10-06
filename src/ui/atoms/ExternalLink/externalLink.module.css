@@ -1,6 +1,7 @@
 .blackHover {
   color: var(--dark);
   padding-bottom: 2px;
+  padding-top: 2px;
 }
 
 .blackHover:hover {
