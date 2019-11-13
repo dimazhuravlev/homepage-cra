@@ -1,11 +1,11 @@
 export const cases = [
-  {
-    id: "enumber",
-    name: "Enumber",
-    year: "2019",
-    role: "дизайн",
-    linkName: "в процессе"
-  },
+  // {
+  //   id: "enumber",
+  //   name: "Enumber",
+  //   year: "2019",
+  //   role: "дизайн",
+  //   linkName: "в процессе"
+  // },
   {
     id: "kamyshev",
     name: "Kamyshev",
