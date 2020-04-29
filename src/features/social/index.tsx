@@ -6,10 +6,10 @@ const Social = () => (
   <div className={styles.social}>
     <ExternalLink
       blackHover
-      href="mailto:dmitryzhur@gmail.com"
+      href="https://www.instagram.com/mityazhuravlev/"
       className={styles.link}
     >
-      Email
+      Instagram
     </ExternalLink>
 
     <ExternalLink
@@ -22,10 +22,10 @@ const Social = () => (
 
     <ExternalLink
       blackHover
-      href="https://www.instagram.com/mityazhuravlev/"
+      href="mailto:dmitryzhur@gmail.com"
       className={styles.link}
     >
-      Instagram
+      Email
     </ExternalLink>
 
     <ExternalLink

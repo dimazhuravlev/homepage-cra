@@ -7,12 +7,11 @@ const About = () => (
   <section className={styles.about}>
     <h2 className={styles.text}>
       Дима Журавлёв, дизайнер. Проектирую сайты, интерфейсы и&nbsp;приложения.
-      Работаю в&nbsp;
+      Отвечаю за визуальный образ и ощущения от использования приложения&nbsp;
       <ExternalLink blackHover href="https://samokat.ru/">
-        Самокате
+        Самокат
       </ExternalLink>
-      . Иногда называю себя разработчиком: верстаю, немного знаю JavaScript /
-      TypeScript / React.
+      .
     </h2>
     <Social />
   </section>
