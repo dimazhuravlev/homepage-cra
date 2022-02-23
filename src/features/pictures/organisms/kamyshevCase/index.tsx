@@ -12,12 +12,14 @@ const KamyshevCase = () => (
     </Element>
     <PreloadableImage wide src="/img/kamyshev/windows.jpg" />
     <PreloadableImage src="/img/kamyshev/blue.jpg" />
-    <p className={styles.text}>
-      Портфолио + блог для веб-разработчика Игоря Камышева.{" "}
-      <ExternalLink blackHover href="https://kamyshev.me/">
-        Перейти на&nbsp;сайт
-      </ExternalLink>
-    </p>
+    <div>
+      <p className={styles.text}>
+        Портфолио + блог для веб-разработчика Игоря Камышева.{" "}
+        <ExternalLink blackHover href="https://kamyshev.me/">
+          Перейти на&nbsp;сайт
+        </ExternalLink>
+      </p>
+    </div>
     <p />
     <PreloadableImage high src="/img/kamyshev/details_1.jpg" />
   </section>

@@ -28,7 +28,6 @@ const FasterCase = () => (
     <PreloadableImage high src="/img/faster/card.jpg" />
     <p />
     <p />
-    {/* <p /> */}
     <p className={styles.text}>
       Faster — аптечный маркетплейс, объединяющий все аптеки города в&nbsp;одном
       месте. Я&nbsp;занимался проектированием, верстал адаптивные прототипы,

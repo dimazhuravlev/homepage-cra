@@ -1,4 +1,12 @@
 export const cases = [
+    {
+    id: "samokat",
+    name: "Самокат",
+    year: "2021",
+    role: "дизайн",
+    linkName: "samokat.ru",
+    link: "https://samokat.ru/"
+  },
   {
     id: "enumber",
     name: "Enumber",
