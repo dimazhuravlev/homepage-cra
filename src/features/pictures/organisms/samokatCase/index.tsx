@@ -8,7 +8,7 @@ const SamokatCase = () => (
   <section className={styles.imgColumn}>
     <Element name="samokat" className={styles.element}></Element>
     <PreloadableVideo wide high src="/img/samokat/price_range_slider.mov" />
-    <PreloadableVideo wide src="/img/samokat/steped.mp4" />
+    <PreloadableVideo wide high src="/img/samokat/steped.mp4" />
     <PreloadableVideo src="/img/samokat/card_video.mp4" />
     <div>
       <p className={styles.text}>
