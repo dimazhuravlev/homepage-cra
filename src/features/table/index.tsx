@@ -13,7 +13,6 @@ const Table = () => {
       targetscroll={row.id}
       name={row.name}
       year={row.year}
-      role={row.role}
       link={row.link}
       linkName={row.linkName}
     />

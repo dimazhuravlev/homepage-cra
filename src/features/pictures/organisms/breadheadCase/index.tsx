@@ -8,10 +8,9 @@ import styles from "./breadheadCase.module.css";
 const BreadheadCase = () => (
   <section className={styles.imgColumn}>
     <p className={styles.text}>
-      Сайт-портфолио для Breadhead. Дизайн: Денис Ильин. Я&nbsp;занимался
-      фронтенд разработкой.{" "}
+      Portfolio for Breadhead. Design: Denis Ilyin. I was doing frontend development.{" "}
       <ExternalLink blackHover href="https://breadhead.ru/">
-        Перейти на&nbsp;сайт
+        View&nbsp;website
       </ExternalLink>
     </p>
     <Element name="breadhead" className={styles.element}>

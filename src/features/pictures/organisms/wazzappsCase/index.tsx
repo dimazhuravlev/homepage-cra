@@ -14,14 +14,9 @@ const WazzappsCase = () => (
     </Element>
     <PreloadableImage wide src="/img/wazzapps/phones.jpg" />
     <p className={styles.text}>
-      Сайт для Wazzapps — компания из Новосибирска, которая создаёт мобильные
-      игры. Визуальный образ и&nbsp;дизайн сделали{" "}
-      <ExternalLink blackHover href="http://fullfort.agency/">
-        Fullfort
-      </ExternalLink>
-      , я&nbsp;занимался фронтенд разработкой.{" "}
-      <ExternalLink blackHover href="https://wazzapps.org/">
-        Перейти на&nbsp;сайт
+      A website for Wazzapps - a&nbsp;company that creates mobile games. Visual identity and design were done by&nbsp;Fullfort agency and I&nbsp;did frontend development.{" "}
+      <ExternalLink blackHover href="https://wazzapps.org/en/#">
+        View&nbsp;website
       </ExternalLink>
     </p>
     <PreloadableVideo src="/img/wazzapps/page_transition.mp4" />

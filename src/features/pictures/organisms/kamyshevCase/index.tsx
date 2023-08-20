@@ -14,9 +14,9 @@ const KamyshevCase = () => (
     <PreloadableImage src="/img/kamyshev/blue.jpg" />
     <div>
       <p className={styles.text}>
-        Портфолио + блог для веб-разработчика Игоря Камышева.{" "}
+        Portfolio + blog for web developer Igor Kamyshev.{" "}
         <ExternalLink blackHover href="https://kamyshev.me/">
-          Перейти на&nbsp;сайт
+          View&nbsp;website
         </ExternalLink>
       </p>
     </div>

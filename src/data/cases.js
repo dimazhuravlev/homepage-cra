@@ -1,9 +1,8 @@
 export const cases = [
     {
     id: "samokat",
-    name: "Самокат",
+    name: "Samokat",
     year: "2021",
-    role: "дизайн",
     linkName: "samokat.ru",
     link: "https://samokat.ru/"
   },
@@ -11,14 +10,12 @@ export const cases = [
     id: "enumber",
     name: "Enumber",
     year: "2019",
-    role: "дизайн",
     linkName: "†"
   },
   {
     id: "kamyshev",
     name: "Kamyshev",
     year: "2019",
-    role: "дизайн",
     linkName: "kamyshev.me",
     link: "https://kamyshev.me/"
   },
@@ -26,7 +23,6 @@ export const cases = [
     id: "wazzapps",
     name: "Wazzapps",
     year: "2019",
-    role: "разработка",
     linkName: "wazzapps.org",
     link: "https://wazzapps.org/"
   },
@@ -34,7 +30,6 @@ export const cases = [
     id: "breadhead",
     name: "Breadhead",
     year: "2018",
-    role: "разработка",
     linkName: "breadhead.ru",
     link: "https://breadhead.ru/"
   },
@@ -42,14 +37,12 @@ export const cases = [
     id: "faster",
     name: "Faster",
     year: "2018",
-    role: "дизайн",
     linkName: "†"
   },
   {
     id: "chevostik",
-    name: "Чевостик",
+    name: "Chevostik",
     year: "2017",
-    role: "дизайн",
     linkName: "chevostik.ru",
     link: "https://chevostik.ru/"
   }

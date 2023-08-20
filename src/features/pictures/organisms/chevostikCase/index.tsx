@@ -19,17 +19,12 @@ const ChevostikCase = () => (
     <PreloadableVideo src="/img/chevostik/lessons.mp4" />
     <p />
     <p className={styles.text}>
-      Чевостик — это интерактивная энциклопедия, где дети слушают аудиоуроки,
-      проходят тесты и&nbsp;игры. Я проектировал и&nbsp;рисовал интерфейс
-      с&nbsp;учётом взаимодействия с&nbsp;сервисом маленькими детьми, которые
-      медленно читают и&nbsp;плохо справляются с&nbsp;курсором на экране.{" "}
+      Chevostik is an&nbsp;interactive encyclopaedia where children can listen to&nbsp;audio lessons, take tests and play games. I&nbsp;designed and drew the interface with a&nbsp;view to&nbsp;the interaction with the service by&nbsp;kids who are slow readers and don't have good control of&nbsp;the cursor on&nbsp;the screen.{" "}
       <ExternalLink blackHover href="https://chevostik.ru/">
-        Перейти на&nbsp;сайт
+        View&nbsp;website
       </ExternalLink>
     </p>
     <PreloadableImage high src="/img/chevostik/right_icons.jpg" />
-    {/* <p />
-    <p /> */}
     <PreloadableImage wide src="/img/chevostik/prizes.jpg" />
   </section>
 );

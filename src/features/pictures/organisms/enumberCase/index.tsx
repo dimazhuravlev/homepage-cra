@@ -8,7 +8,7 @@ const EnumberCase = () => (
   <section className={styles.imgColumn}>
     <div>
       <p className={styles.text}>
-        Enumber — приложение для звонков с использованием IP-телефонии. В отличие от привычного оператора связи с сим-картой, IP-телефония позволяет подключить несколько виртуальных номером, поэтому в приложении предусмотрена быстрая смена активного номера и его выключение.
+      Enumber is an&nbsp;application for calls using IP telephony. Unlike the usual telecom operator with a&nbsp;SIM card, IP&nbsp;telephony allows you to&nbsp;connect several virtual numbers, so&nbsp;the application allows you to&nbsp;quickly change the active number and switch it&nbsp;off.
       </p>
     </div>
     <Element name="enumber" className={styles.element}>

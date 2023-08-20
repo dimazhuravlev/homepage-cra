@@ -29,10 +29,7 @@ const FasterCase = () => (
     <p />
     <p />
     <p className={styles.text}>
-      Faster — аптечный маркетплейс, объединяющий все аптеки города в&nbsp;одном
-      месте. Я&nbsp;занимался проектированием, верстал адаптивные прототипы,
-      отвечал за весь дизайн, вёл проект от начальных иследований
-      и&nbsp;проверки гипотез до подготовки к&nbsp;запуску.
+      Faster is a&nbsp;pharmacy marketplace that integrates all the city's drugstores in&nbsp;one place. I&nbsp;was responsible for the concept, the development of&nbsp;adaptive prototypes, the overall design and took the project from initial research and hypothesis testing to&nbsp;preparation for launch.
     </p>
     <PreloadableImage src="/img/faster/not_found.jpg" />
     <PreloadableVideo wide src="/img/faster/map_order.mp4" />
