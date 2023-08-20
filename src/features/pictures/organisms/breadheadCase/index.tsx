@@ -14,7 +14,7 @@ const BreadheadCase = () => (
       </ExternalLink>
     </p>
     <Element name="breadhead" className={styles.element}>
-      <PreloadableVideo high src="/img/breadhead/intro.mp4" />
+      <PreloadableVideo src="/img/breadhead/intro.mp4" />
     </Element>
     <PreloadableImage wide src="img/breadhead/phones.jpg" />
   </section>

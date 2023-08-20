@@ -15,7 +15,7 @@ const EnumberCase = () => (
       <PreloadableImage element src="img/enumber/tabbar.jpg" />
     </Element>
     <PreloadableImage wide src="img/enumber/three phones.jpg" />
-    <PreloadableVideo high src="/img/enumber/rotate.mp4" />
+    <PreloadableVideo src="/img/enumber/rotate.mp4" />
     <PreloadableVideo wide src="/img/enumber/enumber_modal.mp4" />
   </section>
 );

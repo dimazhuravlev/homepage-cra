@@ -6,6 +6,22 @@ const Social = () => (
   <div className={styles.social}>
     <ExternalLink
       blackHover
+      href="https://www.linkedin.com/in/dmitrii-zhuravlev-434769179"
+      className={styles.link}
+    >
+      LinkedIn
+    </ExternalLink>
+
+    <ExternalLink
+      blackHover
+      href="https://t.me/dimazhuravlev"
+      className={styles.link}
+    >
+      Telegram
+    </ExternalLink>
+
+    <ExternalLink
+      blackHover
       href="https://www.instagram.com/mityazhuravlev/"
       className={styles.link}
     >
@@ -34,10 +50,6 @@ const Social = () => (
       className={styles.link}
     >
       Are.na
-    </ExternalLink>
-
-    <ExternalLink blackHover href="https://www.behance.net/noiseswash">
-      Behance
     </ExternalLink>
   </div>
 );

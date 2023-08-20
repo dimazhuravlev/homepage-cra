@@ -7,9 +7,7 @@ import PreloadableVideo from "ui/atoms/PreloadableVideo";
 const SamokatCase = () => (
   <section className={styles.imgColumn}>
     <Element name="samokat" className={styles.element}></Element>
-    {/* <PreloadableVideo src="/img/samokat/price_range_slider.mov" /> */}
-    <PreloadableVideo wide src="/img/samokat/added_card.mov" />
-    {/* <PreloadableVideo src="/img/samokat/item_sheet.mov" /> */}
+    <PreloadableVideo wide high src="/img/samokat/price_range_slider.mov" />
     <PreloadableVideo wide src="/img/samokat/steped.mp4" />
     <PreloadableVideo src="/img/samokat/card_video.mp4" />
     <div>
@@ -18,14 +16,17 @@ const SamokatCase = () => (
       </p>
     </div>
     <PreloadableImage wide src="img/samokat/pages.jpg" />
+    <PreloadableVideo wide src="/img/samokat/added_card.mov" />
     <PreloadableImage src="img/samokat/tabbar.jpg" />
     <p></p>
     <p></p>
     <PreloadableImage high src="img/samokat/profile.jpg" />
     <PreloadableImage wide src="img/samokat/catalog.jpg" />
+    <PreloadableVideo src="/img/samokat/item_sheet.mov" />
     <p></p>
-    <PreloadableVideo src="/img/samokat/loader_video.mp4" />
+    <p></p>
     <PreloadableImage src="img/samokat/button.jpg" />
+    <PreloadableVideo src="/img/samokat/loader_video.mp4" />
     <PreloadableImage wide src="img/samokat/cart.jpg" />
   </section>
 );

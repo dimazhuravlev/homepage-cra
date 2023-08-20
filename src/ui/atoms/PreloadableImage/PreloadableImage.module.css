@@ -28,12 +28,6 @@
   background-color: black;
 }
 
-@media (max-width: 1024px) {
-  .preloader {
-    height: 31vw;
-  }
-}
-
 .loaded .preloader {
   opacity: 0;
 }
@@ -56,10 +50,19 @@
 }
 
 @media (max-width: 1024px) {
-  .wide {
+  .preloader {
+    height: 31vw;
+  }
+  /* .wide {
+    height: 62vw;
+  } */
+  .wide .preloader {
     height: 62vw;
   }
-  .wide .preloader {
+  .high {
+    height: 62vw;
+  }
+  .high .preloader {
     height: 62vw;
   }
 }
@@ -67,15 +70,6 @@
 .high {
   height: 100%;
   grid-row: span 2;
-}
-
-@media (max-width: 1024px) {
-  .high {
-    height: 62vw;
-  }
-  .high .preloader {
-    height: 62vw;
-  }
 }
 
 .element {
