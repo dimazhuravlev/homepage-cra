@@ -13,8 +13,8 @@ const About = () => (
       <br />
       <br />
       Currently Lead Product Designer at&nbsp;
-      <ExternalLink blackHover href="https://music.yandex.ru/home">
-        Yandex Music
+      <ExternalLink blackHover href="https://play.yango.com/">
+        Yango Play
       </ExternalLink>
       , previously led the Customer Experience Design team at&nbsp;
       <ExternalLink blackHover href="https://samokat.ru/">

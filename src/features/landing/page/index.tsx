@@ -11,17 +11,19 @@ interface Props {
   isMobile: any;
 }
 
+const SplitPaneAny: any = SplitPane;
+
 const LandingPage = ({ isMobile }: Props) =>
   isMobile ? (
     <main>
-      <SplitPane minSize={400} defaultSize="50%">
+      <SplitPaneAny minSize={400} defaultSize="50%">
         <section className={styles.textColumn}>
           <About />
           <Table />
         </section>
 
         <Pictures />
-      </SplitPane>
+      </SplitPaneAny>
     </main>
   ) : (
     <main>

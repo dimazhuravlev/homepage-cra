@@ -15,7 +15,7 @@
   content: "";
   width: 11px;
   height: 30px;
-  background-image: url(/img/splitter_icon.png);
+  background-image: url('/public/img/splitter_icon.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--light);
